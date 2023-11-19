@@ -1,0 +1,552 @@
+What is the Energy Company Obligation (ECO4) scheme?
+The Energy Company Obligation (ECO4) is a government energy-efficiency
+scheme in Great Britain, designed to tackle fuel poverty and help
+reduce carbon emissions. ECO is an obligation placed on energy
+companies to deliver energy efficiency measures to domestic premises.
+ECO is not a grant scheme; it is up to the energy companies to
+determine which retrofit projects they choose to fund, the level of
+funding they provide, and the Retrofit Coordinator and installers that
+they choose to work with.
+
+ECO4 measures were able to be delivered from the 1 April 2022. The ECO4
+scheme will run until 31 March 2026.
+
+ECO4 focuses on improving the least energy efficient homes and households
+in fuel poverty, as only properties in bands D-G can be treated. It also
+aims to deliver a more complete upgrade of those homes, shifting to a
+multi-measure whole-house retrofit approach. Furthermore, a minimum number
+of private tenure homes in energy efficiency rating band E, F and G must
+be upgraded throughout ECO4, ensuring the least efficient homes are treated.
+
+There is a new Minimum Requirement (MR) to improve the energy efficiency
+rating of band D and E homes to at least a band C and band F and G homes
+to at least a band D. ECO4 aims to encourage the installation of various
+energy efficient measures such as insulation measures, first time central
+heating, renewable heating, and district heating connections.
+
+For more information on SAP band requirements, MRs, and ECO4 measures,
+please refer to the ofgem website.
+
+Can I benefit from ECO funding?
+In order to benefit from ECO, you must own your own home or have the
+permission of your landlord, including if your property is owned by a
+social housing provider or management company. As ECO4 is not a grant
+scheme, different companies or installers may provide different levels
+or types of support towards the installation of energy efficiency or
+heating measures. We recommend consumers look around for the best deal
+suitable for them.
+
+There are a number of ways to find out whether you can benefit from ECO:
+
+You could check Simple Energy Advice website.
+You can make further enquiries about accessing ECO measures by contacting
+any one of  obligated suppliers. Please note you can receive help from
+another obligated energy company, while also remaining as a customer
+with your current energy provider.
+
+You could also use the government's energy grants calculator to check
+if you are eligible for help with your energy bills.
+
+Am I eligible for ECO4?
+ECO eligibility is assessed using a combination of householder criteria
+and house makeup. Information on how the house makeup eligibility is
+determined can be found in Chapter 3 of our ECO4 Delivery Guidance. The
+householder eligibility criteria are assessed using three separate pathways:
+
+1. Receipt of eligible benefits of the Help to Heat Group
+You will be eligible for ECO4 if you are living at private domestic premises
+and are a member of the Help to Heat Group (HTHG). Membership of the HTHG
+entails receipt of at least one of the following benefits and satisfaction
+of the relevant income requirements:
+
+1) Income based Jobseekers Allowance (JSA),
+
+2) Income related Employment and Support Allowance (ESA),
+
+3) Income Support (IS),
+
+4) Pension Credit Guarantee Credit (PCGC),
+
+5) Working Tax Credit (WTC),
+
+6) Child Tax Credit (CTC),
+
+7) Universal Credit (UC),
+
+8) Housing Benefit,
+
+9) Pension Credit Savings Credit (PCSC),
+
+10) Child Benefit, (within the income caps, see Chapter 5 of the ECO4 Guidance: Delivery)
+
+Additionally, a person living at private domestic premises is an eligible
+member of the HTHG if the person is in receipt of the Core Group 1 and Core
+Group 2 rebate in England and Wales, or the Core Group in Scotland, for each
+respective scheme year under the Warm Home Discount scheme.
+
+Households with disabilities would be eligible only where they are in receipt
+of a means tested benefit or found eligible under one of the four routes outlined
+in the eligibility mechanism ‘ECO4 Flex’. Further information on ECO4 Flex can be
+found in Chapter 6 of the ECO4 Guidance: Delivery.
+
+2. Living in social housing with poor energy efficiency.
+Measures under ECO4 can be delivered to social housing with an EPC energy efficiency rating
+of D, E, F, and G, where the premises are let below the market rate.
+
+Delivery of measures to SAP band E-G rated social housing premises is limited to the following measures:
+
+a) Insulation measures
+
+b) First time central heating
+
+c) Renewable heating except where it replaces a renewable heating measure of the same kind at the domestic premises
+
+d) District heating connection
+
+e) Innovation measures (IMs).
+
+Delivery to EPC band D rated social housing is limited to IMs and insulation measures
+installed to meet the Minimum Insulation Requirements only. Band D social housing are also
+required to meet the Minimum Requirements; however, they are not eligible to receive other measures.
+
+3. Eligibility under ECO4 Flex
+Under ECO4 Flex, local authorities (LAs), the Scottish and Welsh Governments, and suppliers
+can identify households that meet certain legislated eligibility requirements. LAs will use
+the four routes listed under ECO4 Flex to identify eligible households. Further information
+on each of these routes can be found in the ECO4 Guidance: Local Authority Administration and
+Chapter 6 of the ECO4 Guidance: Delivery. The LA will contact you should you meet the eligible
+criteria and can refer you for the scheme.
+
+You may wish to contact your LA for more information, or to find out if you meet the eligible criteria.
+
+Note that meeting the eligibility for an ECO4 measure will not guarantee that it will be installed.
+It is up to the energy companies to determine which retrofit projects they choose to fund, the level
+of funding they provide and the Retrofit Coordinator and installers they choose to work with. We
+encourage that you speak to your energy supplier, should you have any queries about your eligibility
+and the retrofit process for the delivery of measures under ECO4.
+
+Can I get help outside of ECO?
+There are several government schemes available to help you with your energy bills such as the Warm
+Home Discount. To find out about the schemes available you could use the government's energy grants
+calculator to check if you are eligible for help.
+
+If you would like advice on energy efficiency, and information on the schemes on which to benefit from,
+and you live in England and Wales, the Simple Energy Advice website offers impartial energy efficiency advice.
+
+Can ECO measures be co-funded with other grants or schemes?
+Funding for measures delivered under ECO4 must not be blended with funding from other government
+schemes or grants, including but not limited to the Warm Home Discount (WHD), Boiler Upgrade Grand
+(BUS), Social Housing Decarbonization Fund (SHDF) and Home Upgrade Grant (HUG). Any measures outside of
+ECO4 delivered to the same property would have to be installed either before the ECO4 retrofit project was
+started or after the entire project is complete and all measures have been installed.
+
+What is in-fill?
+Certain households that do not meet the criteria for fuel poverty or vulnerability to cold but that are
+living on the same street or same building or block as households that do meet those criteria may also be
+eligible for the same type of measures through this route. Measures delivered to these premises are known
+as “in-fill”.
+
+There are separate rules for in-fill in flats and in-fill in houses. For every flat that meets the ECO4
+eligibility one in-fill flat can be treated, if it is in the same block of flats. In-Fill flats need to
+be in the same block or building as the flats that meet the ECO4 eligibility criteria. For every three
+houses treated under ECO4 subject to meeting the ECO4 eligibility criteria, one in-fill house on the same
+street can be treated.
+
+In-fill flats can receive Solid Wall insulation, district heating system connection or cavity wall insulation.
+In-fill houses can receive solid wall insulation or district heating system connection. You may be eligible
+for ECO4 under one of the two in-fill mechanisms that are established by the scheme. You can find more information
+about in-fill in the ECO4 Guidance: Delivery.
+
+Will I have to pay to have an energy efficiency measure installed?
+It is up to the energy companies to determine which retrofit projects they choose to fund, the level of funding
+they provide, and the retrofit coordinator or installers they choose to work with. The level of funding will
+depend on the measures type and a number of other factors. In some cases, you may be asked to contribute to the
+cost of the installation. ECO is not a grant scheme and as such, different companies or installers may provide
+different levels or types of support towards the installation of energy efficiency or heating measures. Ofgem
+do not comment on the scale or cost of consumer contributions. If you are asked to contribute to the cost of
+the installation, we encourage you to ‘shop around’ for the best deal to ensure you are satisfied with any offer
+made.
+
+Can I only get ECO support from my energy provider?
+No. Any obligated supplier can deliver measures to any domestic premises in England, Wales and Scotland, provided
+the eligibility criteria are met.
+
+Who are the Obligated Suppliers?
+British Gas
+Bulb Energy
+E (Gas and Electricity)
+E.ON Energy
+Ecotricity
+EDF Energy
+ESB Energy
+Foxglove Energy
+Scottish Power
+Shell Energy
+Octopus Energy
+Ovo Energy
+Utility Warehouse
+Utilita
+
+Installers offering measures under ECO - I’ve received a letter from an ECO installer, are they genuine?
+Installers are not approved by Ofgem under the ECO scheme. The role of Ofgem is to administer ECO and it
+is for the obligated energy companies to arrange the delivery of the energy efficiency measures. You can
+read more about our role on the About the ECO scheme webpage.
+
+Energy companies work with third party retrofit coordinators and installers to deliver their ECO obligations,
+which may result in a retrofit coordinator or installer approaching a consumer directly to enquire about
+installing retrofit measures as part of a project under ECO4.
+
+From 1 January 2020, government set out that all installers delivering ECO measures must be TrustMark
+registered businesses, or equivalent, and this also applies to ECO4 measures. If a company approaches
+you and claims to be an installer, always ask to see their credentials. You should expect to see the
+following certification to prove they are registered with a consumer protection body:
+
+Most measures under ECO must installed by, or under the responsibility of a person who is registered with
+TrustMark, or equivalent. Installers registered with TrustMark will have a registration number.
+If they are installing a district heating connection, they must either be registered with Heat Trust or have
+equivalent consumer protection in place.
+
+In addition, installers must be certified under a regulatory body to ensure the installation standard of the measure.
+You should expect an installer to hold the following certification for the relevant measure types:
+
+Most installations will need to be carried out by a PAS (Publicly Available Specification) certified installer and
+will have a registration number.
+If they are installing low carbon microgeneration measures (eg renewable measures that produce heat), they need to
+be Microgeneration Certification Scheme (MCS) accredited and will be registered on the MCS website.
+If they are repairing or replacing a gas boiler, the company must be registered with Gas Safe. You can check this
+on Gas Safe's website.
+For oil boiler repairs, installers must be registered with the Oil Firing Technical Association (OFTEC). You can
+check this on the OFTEC website.
+
+What documents should I (the occupier) receive from the installer of an ECO measure?
+The following documents should be kept in a safe place in case you need to refer to them at a later date:
+
+Documents setting out the arrangements for the works, for example a contract.
+Ensure you have a document setting out the arrangements to carry out the work in your property. Obtain your own
+independent technical or legal advice if you think this is necessary.
+
+ECO4 Eligibility Requirements Form
+This document is intended to be used by suppliers in order to assess the eligibility of properties receiving
+measures under the ECO4 Scheme.
+
+Occupiers will also be provided with templates that may be used to evidence private domestic premises and social
+housing.
+
+ECO4 Privacy Notice
+The installer should provide the privacy notice to the consumer before the installation takes place. This will
+ensure that the person who lives at the property (where the ECO4 measure is delivered) knows how and why their
+information will be processed, including whom the information will be disclosed to.
+
+ECO4-Post Installation Customer and Installer Declaration
+After the works are complete, the installer should ask you to sign a ‘Post Installation Customer and Installer Declaration’ form. It is important that you only sign this once works are complete and you are satisfied with the works. You should retain a copy of this document.
+
+For individual measures, we also recommend you retain the documents below, as applicable.
+
+Guarantees
+ECO ‘appropriate guarantees’
+
+Insulation measures (such as solid wall insulation or cavity wall, including party cavity wall insulation,
+room-in-roof insulation and underfloor insulation), must be accompanied by an appropriate guarantee. Details
+of which can be find in paragraph in the ECO4 Guidance Delivery. An appropriate guarantee must last for at least
+25 years. Government has decided that for ECO4 all guarantee requirements will be mandated by TrustMark. More
+information can be found here.
+
+Additional financial protection is also required for underfloor insulation (UFI) and room-in-roof insulation
+(RIRI). It became a mandatory requirement to have an appropriate guarantee in place for the UFI and RIRI measure
+completed on or after 1 July 2020.  Appropriate guarantees, which have been reviewed and considered to meet the
+relevant criteria, are listed on TrustMark’s website. If you do not have your guarantee and the measure was
+installed before April 2015, then you could contact all the guarantee agencies covering the type of wall
+insulation and ask them if they have a record of a guarantee covering your address. A list of guarantee agencies
+covering ECO measures installed before April 2015 is available on our ECO1: Appropriate Guarantees webpage.
+
+Manufacturer / installer guarantee
+
+In addition to receiving an ECO appropriate guarantee, you may also be provided with a manufacturer’s
+and / or an installer’s guarantee covering the installation. Ofgem do not hold details of which companies
+issue guarantees for the installation of measures and are not involved in the contractual arrangements for
+these types of guarantees.
+
+New or replacement boilers or electric storage heaters
+Boilers or electric storage heaters that are replaced or upgraded under ECO must be accompanied by a warranty
+of at least two years, supplied by the installer at the time of installation. We do not hold details of which
+company issued warranties for heating system repairs, replacements or upgrades. You may wish to check if the
+boiler has a manufacturer’s warranty independent of ECO that may also have a claims procedure outlined.
+Registered engineers must notify the installation of a new boiler to their Local Authorities. The notification
+can be made through the Gas Safe Register. Once notification is completed, a Building Regulations Compliance
+Certificate should arrive via post within 10-15 working days. Please ensure you retain this Certificate. If
+you do not receive this, please follow up with the installer. You can find more information on the Gas Safe
+Register.
+Boilers or electric storage heaters that are repaired under ECO must be accompanied by a warranty of at least
+one years, supplied by the installer at the time of installation. More information can be found on the TrustMark
+website under their Framework Operating Requirements
+
+Other energy efficiency measures
+For other types of energy efficiency measures installed before 31 December 2019 (the ECO4 Delivery Guidance chapter 5 provides a comprehensive list of measures eligible under ECO4), guarantees are not required. However, the product manufacturer or the installer may have provided a guarantee / warranty for the installation and you should refer to this in the event that any issues arise with the measure. Make sure that you ask the installer if the product comes with a manufacturer’s warranty and if so make sure that you get a copy of the warranty from your installer.
+From 1 January 2020, all ECO measures delivered by a TrustMark registered business must be accompanied by a guarantee of at least two years.
+
+I am a landlord in the private rented sector (PRS), what measures can be installed under ECO?
+It is the eligibility of the tenant of the property, rather than the landlord, that needs to be considered for
+ECO4 retrofits. To reflect the Minimum level of Energy Efficiency Standard (MEES) for private rented sector (PRS)
+properties, the measure types that can be installed in PRS properties under ECO4 depend on the EPC rating. The
+following are eligible measures for PRS properties:
+
+PRS properties occupied by a member of the HTHG, or a person declared as eligible by the local authority with an
+initial SAP energy efficiency rating of E, F, and G are eligible to receive ECO4 measures. See Question 4 for more
+information on HTHG eligibility.
+
+The package of measures that PRS properties receive must include at least one of the following measures, in
+addition to further ECO measures necessary to meet the MR:
+
+Solid wall insulation (SWI),
+First time central heating (FTCH),
+District heating system connection,
+Renewable heating, except where it replaces a renewable heating measure of the same kind at the domestic premises.
+In general, the replacement or repair of a boiler, central heating system or electric storage heater is not
+eligible in PRS properties under ECO4 as part of the package upgrade. However, this is permissible when the
+replacement heating measure is the installation of FTCH, a renewable heating measure or a district heating
+connection.
+The replacement of inefficient heating systems in PRS homes can happen in the following circumstances:
+Electric Storage Heaters can be replaced if they are being replaced by FTCH.
+An inefficient heating system can be replaced with a renewable heating system.
+A renewable heating system cannot be replaced with another renewable heating system of the same kind.
+
+I am a tenant in the private rented sector (PRS), do I need consent from my landlord for ECO measures to be
+delivered?
+You may be able to have ECO4 measures installed if you are a tenant living in privately rented premises and you
+meet the relevant eligibility criteria. To do so you must gain consent from your landlord. Suppliers may choose
+to request evidence that the landlord’s permission has been obtained for the delivery of a measure(s) in a PRS
+property.
+
+Consent can be evidenced using the ECO4 Eligibility Requirements Form. This document can be used to evidence
+that the property is owned by a private landlord. Suppliers may choose to have further evidence requirements in
+relation to PRS properties beyond this.
+
+The Department for Business, Energy and Industrial Strategy (BEIS) have published a guide on their website
+outlining your rights regarding obtaining consent in certain circumstances, as well as the key steps a tenant
+must take when preparing an energy efficiency consent request.
+
+Can I get my boiler replaced under ECO?
+It is possible to get your boiler repaired, replaced, or upgraded under ECO4. For a broken boiler replacement
+to be eligible, immediately prior to the installation the premises must have an efficient boiler, which has
+broken down and cannot be economically repaired. However, the ECO4 scheme includes a cap on the replacement of
+all efficient broken heating systems. The following measures can be installed outside of the broken heating
+system cap:
+
+First Time Central Heating (FTCH)
+A heating system upgrade
+A renewable heating system
+A district heating connection
+An innovation measure
+The installation of heating controls
+Heating system upgrades (which are not capped) can only occur when the existing boiler is inefficient
+(non-condensing), otherwise, the boiler is instead eligible for a replacement subject to the cap.
+See Chapter 5 of the ECO4 Guidance: Delivery document for more information on eligible boiler measures.
+
+Planning to get an extension to my home
+
+New build extensions
+A new build extension is an extension completed on or after 1 April 2022.
+
+An ECO project may not be delivered to a new build extension until the works for the extension have been completed.
+
+In the case of measures installed to new build extensions, suppliers will need to evidence that the construction of
+the extension is complete prior to the date of completed installation of the ECO measure.
+
+Suitable evidence that the extension was completed before the date of completed installation includes:
+
+In England and Wales, building control completion certificate, or
+In Scotland, the notification from a local authority of acceptance of a completion certificate.
+Where neither of these documents are available, suppliers should contact us to discuss alternative documentation.
+
+This evidence must be made available on request. Where no documentation is available, the measure may be ineligible.
+
+Building Extensions
+ECO measures cannot be delivered to an unfinished new build extension. If a measure is installed to a property
+that had an on-going new build extension, then the measure can only be claimed for the existing part of the
+property.
+
+Is window glazing an eligible ECO measure?
+Yes, window glazing can be installed as either ‘single to double’ or ‘improved double glazing’.
+While a replacement window glazing measure is eligible under ECO4, we stress that it is up to
+the energy companies to determine which retrofit projects and measure packages they choose to fund.
+
+Requesting information from Ofgem about your ECO measure
+If the measure has been installed under ECO4, you are able to exercise your right of access and
+request Ofgem to provide you with all of the data we hold on to the measure that was installed
+at your property. This may include the name of the installer (if the measure was installed after
+April 2015), the ECO appropriate guarantee provider if applicable, the energy company who funded
+the measure, and whether the measure installed at your property has been notified to us. This
+process is a right given by the UK General Data Protection Regulation (2018)[1], to give an
+individual the right to obtain a copy of their personal data as well as other supplementary
+information through Subject access requests (SARs). For more information, please contact ECO.SAR@ofgem.gov.uk.
+
+Please note that we will not have information on our database until three months after the installation is complete.
+
+[1] Guide to the UK General Data Protection Regulation (UK GDPR) | ICO
+
+Complaints about the standard of installations
+This information is for domestic consumers who have had energy efficiency
+measures delivered through a UK government scheme.
+
+We have no role in the administration of other schemes such as those run by
+local authorities, and the Scottish, Welsh and Northern Irish governments.
+
+For information specific to complaints about standard of cavity wall insulation
+installation, see our cavity wall insulation page and BEIS' cavity wall insulation
+consumer guide to issues arising from installations.
+
+Our role and ability to help
+Our role as administrator of ECO generally involves setting targets for each
+obligated energy company, ensuring compliance and monitoring their progress
+towards these targets. We have no oversight of the contractual arrangements
+between the obligated energy companies and those that install energy efficiency
+measures on their behalf. As such, our ability to help you resolve a complaint
+is limited. However, we encourage you to get in touch with any feedback on any
+negative consumer experiences you may have had. This enables our work with
+industry to help improve standards.
+
+The steps outlined below should help you resolve complaints about an energy
+efficiency measure installed in your home.
+
+Step 1.  Find out when the measure was installed
+
+If the measure was installed under a UK government energy efficiency scheme,
+the date of installation may help you understand which one.
+
+A summary of current and recent schemes is provided below.
+
+The ECO Scheme commenced with ECO1, which ran from January 2013 to March 2015.
+The ECO Scheme was extended in April 2015 (ECO2) and was due to conclude in March 2017.
+However, ECO2 was further extended and continued until September 2018 (ECO2t).
+This was followed by ECO3 which commenced on 3 December 2018 but applied to energy
+efficiency measures installed from 1 October 2018 to 31 March 2022. The ECO4 Order
+came into force on the 27th of July 2022, but applied to measures installed from 1 April 2022.
+The Carbon Emissions Reduction Target (CERT) ran between 1 April 2008 and 31 December 2012.
+The Community Energy Saving Programme (CESP) came into force on 1 September 2009 and the
+obligation period ran from 1 October 2009 to 31 December 2012.
+The first Energy Efficiency Commitment (EEC) scheme ran from 2002 to 2005 and the
+second (EEC2) ran from 2005 to 2008.
+The Energy Efficiency Standards of Performance (EESoP) ran from 1994 to 2002.
+Subject access requests check information from CESP, ECO1, ECO2, ECO2t, ECO3 and ECO4.
+For the other schemes that have now closed, it is unlikely that we will be able to provide
+you with any information to determine whether it was installed under the scheme in question,
+or any details about the installation itself. In these cases, you would need to rely on any
+paperwork you might have to identify the installer.
+
+Step 2: Find your paperwork and contact the installer.
+
+The next step is to contact the installer responsible for the work. You can find this information
+in the paperwork given to you when it was installed.
+
+If you cannot find this information and the measure was installed in your property from April 2015
+onwards, we can confirm the name of the installer we have registered on our database. To request
+this, please contact the ECO team (ECO.SAR@ofgem.gov.uk) for instructions on how to access any
+information we may have about the measure installed in your property (please note that we will
+not have this information on our database until three months after the installation has been completed).
+
+If your measure was installed before April 2015, the energy company that helped to fund it may have
+a record of the installer’s name (see step 5) and may be able to help you.
+
+Step 3: Find your guarantee of warranty
+
+We may be able to confirm the name of the relevant guarantee agency if the measure was installed
+after March 2015 and before 1 April 2022. This will be provided to you as a code, which you can
+check against our Appropriate Guarantees list to find out which company is responsible. TrustMark
+were responsible for all aspects of the guarantee process including assessing ECO appropriate
+guarantee applications for ECO3. ECO3 appropriate guarantees can be found on the TrustMark website
+and any queries regarding these should be directed to TrustMark (info@trustmark.org.uk). The list
+of appropriate guarantee providers and their contact details can be found on our website for ECO1
+and ECO2 (including ECO2t) and ECO3.
+
+Please note, however, that we do not hold copies of any guarantee certificates. You will have to contact
+the guarantee agency to obtain copies of any certificates that may have been issued. In addition, Ofgem
+do not hold any information relating to guarantees for measures installed before April 2015.
+
+If you do not have your guarantee and the measure was installed before April 2015, you could contact
+all the guarantee agencies covering the type of wall insulation in question and ask them if they have
+a record of a guarantee covering your address. If the measure was installed after March 2015 and before
+1 April 2022 you can contact TrustMark directly or contact the guarantee agencies listed on their website
+
+Insulation measures: If the measure was installed under ECO and is a type of wall insulation, it will be
+covered by a guarantee. If the installer has gone out of business or not addressed your concerns, you
+should then contact the guarantee provider. This information and the guarantee should have been provided
+to you at installation. All room in roof and underfloor insulation installations carried out after 1
+July 2020 must be accompanied by an appropriate warranty of 25 years or more.
+Boiler measures: We required a warranty of at least one year for any boiler repair under ECO1. Under
+ECO2 and ECO3, we require a warranty for at least a year for a boiler repair, replacement or upgrade.
+For ECO4 For installations carried out after 1 January 2020, we require a warranty for a minimum of two
+years for all boiler installations (1 year for repairs).
+We do not hold details of which company issued warranties for boiler repairs, replacements or upgrades.
+You may also wish to check if the boiler has a manufacturer’s warranty independent of ECO, which may include
+a separate claims procedure.
+
+
+Electric Storage Heaters (ESHs): All electric storage heaters repaired, replaced or upgraded under ECO prior
+to 1 January 2020 must be accompanied by a warranty of at least one year. For newer measures installed on or
+after 1 January 2020, all electric storage heater repair, replacement or upgrade must be accompanied with a
+2-year warranty. This can be a manufacturer’s warranty. We do not hold the details of any warranties issued.
+
+Other measures: For measures installed prior to 1 January 2020, guarantees were not a required for ECO.
+However, the product manufacturer or the installer may have provided a policy for the installation and
+you should refer to this. As of 1 January 2020, all other ECO measures must be accompanied by a guarantee
+of at least two years.
+Note: Some guarantee providers recommend that consumers contact them at the same time as contacting the installer about a complaint. This could help to speed up the resolution of your complaint.
+
+Step 4. Contact the relevant oversight body
+
+If you have not found redress through the installer, the installer responsible for the work may also be part
+of an accreditation and / or certification body, and / or trade association that maintains industry standards.
+
+Organisations such as the Gas Safe Register, Oil Firing Technical Association (OFTEC), and Green Deal Oversight
+& Registration Body have procedures for complaints against registered members. Contact details are below.
+
+Gas Safe Register Tel: 0800 408 5500
+Oil Firing Technical Association (OFTEC) Tel: 01473 626 298
+Green Deal Oversight & Registration Body
+Microgeneration Certification Scheme (MCS) Tel: 0207 090 1082
+TrustMark
+
+Step 5. Contact the energy company
+
+The contract for the work done in your home is typically between you and the installer. However, in some cases,
+the energy company, which ultimately funded the measure, may be able to give you information on the installer or
+the guarantee provided.
+
+If your measure was installed under the ECO scheme then we can tell you which company ultimately funded it.
+Contact the ECO team (ECO.SAR@ofgem.gov.uk) for more information.
+
+Step 6. Alternative options
+
+If your problem is still not resolved, the Citizens Advice consumer helpline may be able to help. The number is
+08454 04 05 06.
+
+If you wish to report a problem to Trading Standards, mention this to the adviser.
+
+Citizens Advice can refer matters to Trading Standards, who will then decide whether to take on the case.
+
+Complaints about measures installed before the ECO scheme
+
+The information above applies mainly to ECO measures but similar steps should be followed for complaints about
+energy efficiency measures installed under previous schemes.
+
+As mentioned above, for schemes that have now closed we are unlikely to be able to provide you with any details
+about the installation
+
+For the Community Energy Saving Programme (CESP), which ran from October 2009 to 31 December 2012, we may be
+able to confirm if a measure has been notified to us.
+
+Please contact the ECO team (ECO.SAR@ofgem.gov.uk) if you believe that this applies to you.
+
+Contacting the Department for Business, Energy & Industrial Strategy
+
+Although Ofgem is the appointed administrator of ECO, The Department for Business, Energy & Industrial Strategy
+set the overall policy for the ECO scheme.
+
+Office address and general enquiries about ECO:
+
+Department for Business, Energy & Industrial Strategy, 1 Victoria Street, London, SW1H 0ET Email: enquiries@beis.gov.uk.
+
+My question is not answered in the FAQs. Where else can I look?
+The ECO4 Guidance: Delivery is a comprehensive document for anyone looking for in-depth information regarding ECO.
+
+If you still have questions, please contact us at eco@ofgem.gov.uk
