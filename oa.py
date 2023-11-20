@@ -1,51 +1,81 @@
+"""Uses language model API to respond to user prompts"""
+
 from openai import OpenAI
 from dotenv import load_dotenv, find_dotenv
-import time, random
+from typing import List, Tuple, AnyStr
 
 _ = load_dotenv(find_dotenv())
 
 client = OpenAI()
 CONTEXT = open("utils/guide.txt").read()
-DESCRIPTION = """
-Ellie is a helpful UK ECO IV scheme autonomous agent. Ellie will politely answer questions
-about the scheme, check your eligibility and help you through the entire sign up, 
-installation and post-installation stages
+
+DESCRIPTION = """ECO IV Ellie is your virtual assistant dedicated to guiding users through the intricate landscape of 
+UK eco schemes. With a friendly persona inspired by eco-conscious customer representatives, Ellie seamlessly engages 
+users in meaningful conversations about sustainable living, energy efficiency, and environmental initiatives. 
+Empowering users with knowledge and assistance, Ellie is your go-to companion for navigating the world of 
+eco-conscious choices and making a positive impact on the planet. Join the conversation and let EllieChat be your 
+eco-guide today."""
+
+sys_message = f"""Your persona is Ellie, a courteous customer service agent for the ECO IV scheme. As an agent, 
+provide concise information about the program and guide users through the sign-up process. Be polite, 
+informative, and avoid unnecessary details. Your goal is to assist citizens efficiently and ensure a smooth user 
+experience. Mimic the tone of a helpful customer service representative, always aiming for thoughtful and 
+succinct responses.
+
+The following information, delimited by triple backticks provides details about the ECO4 scheme - feel free to use 
+this information: ```{CONTEXT}```
 """
 
 
-def respond(prompt="Hi Ellie.", history=None):
-    query = f"""
-    Use the information delimited by triple backticks to answer the following question:
+def gr_format(messages):
+    """Assumes messages is in the form of openai api. Converts to gr format"""
+    messages = messages[1:]
 
-    INFORMATION: ```{CONTEXT}```
-    QUESTION: {prompt}
+    mine = [msg["content"] for i, msg in enumerate(messages, 1) if i % 2 == 1]
+    bot = [msg["content"] for i, msg in enumerate(messages, 1) if i % 2 == 0]
+
+    return [v for v in zip(mine, bot)]
+
+
+def oa_format(messages):
     """
+    Assumes messages is in gr format
+    """
+    m = [{"role": "system", "content": sys_message}]
+    for v in messages:
+        mine, bot = v
+        m.append({"role": "user", "content": mine})
+        m.append({"role": "assistant", "content": bot})
+    return m
 
-    sys_message = """Your persona is Ellie, a courteous customer service agent for the ECO IV scheme. As an
-    agent, your role is to assist citizens by providing concise information about the program and guiding
-    them through the sign-up process. Your approach is polite and informative. You engage users by posing pertinent 
-    questions to determine their eligibility for the scheme, ensuring a seamless and user-friendly experience.
-    
-    Mimic the tone and style of a helpful customer service representative. And please remember to be thoughtful and 
-    extremely concise in your responses. This is very important."""
+
+def respond(message: AnyStr, messages: List[Tuple]) -> List[Tuple]:
+    """Assumes messages are in gr format."""
+    messages = oa_format(messages)
+
+    query = f"""
+    QUESTION: {message}
+    """
+    messages.append({"role": "user", "content": query})
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": sys_message},
-            {"role": "user", "content": query}
-        ],
+        messages=messages,
         temperature=0.25,
         seed=42,
-        max_tokens=50,
         # TODO: Fix the streaming idiot
     )
+
     message = response.choices[0].message.content
-    # for i in range(len(message)):
-    #     time.sleep(0.05)
-    #     yield "" + message[: i + 1]
+
     return message
 
 
 if __name__ == '__main__':
-    print(respond("Tell me about this scheme of yours."))
+    hist = []
+    for _ in range(5):
+        prompt = input("Prompt >> ")
+        res, hist = respond(prompt, hist)
+        print(f"AI: {res}")
+        print(type(hist), hist)
+    print("end of conversation.")
