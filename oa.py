@@ -3,11 +3,14 @@
 from openai import OpenAI
 from dotenv import load_dotenv, find_dotenv
 from typing import List, Tuple, AnyStr
+import time, random
+from speech import speech_stream
 
 _ = load_dotenv(find_dotenv())
 
 client = OpenAI()
 CONTEXT = open("utils/guide.txt").read()
+
 
 DESCRIPTION = """ECO IV Ellie is your virtual assistant dedicated to guiding users through the intricate landscape of 
 UK eco schemes. With a friendly persona inspired by eco-conscious customer representatives, Ellie seamlessly engages 
@@ -16,6 +19,7 @@ Empowering users with knowledge and assistance, Ellie is your go-to companion fo
 eco-conscious choices and making a positive impact on the planet. Join the conversation and let EllieChat be your 
 eco-guide today."""
 
+# TODO: DEFINITELY NEED TO ITERATE ON THIS PROMPT AN IMBUE MORE HELPFUL AGENT LIKE CHARACTER
 sys_message = f"""Your persona is Ellie, a courteous customer service agent for the ECO IV scheme. As an agent, 
 provide concise information about the program and guide users through the sign-up process. Be polite, 
 informative, and avoid unnecessary details. Your goal is to assist citizens efficiently and ensure a smooth user 
@@ -63,19 +67,27 @@ def respond(message: AnyStr, messages: List[Tuple]) -> List[Tuple]:
         messages=messages,
         temperature=0.25,
         seed=42,
-        # TODO: Fix the streaming idiot
+        stream=True,
     )
+    completion = ""
+    type(response)
+    for chunk in response:
+        time.sleep(random.uniform(0.01, 0.07))
+        try:
+            completion += chunk.choices[0].delta.content
+            yield completion
+        except TypeError:
+            break
 
-    message = response.choices[0].message.content
-
-    return message
+    # TODO: NEED TO INTEGRATE SPEECH AND TEXT GENERATION BY STREAMING BOTH SIMULTANEOUSLY
+    speech_stream(script=completion)
+    return response
 
 
 if __name__ == '__main__':
     hist = []
     for _ in range(5):
         prompt = input("Prompt >> ")
-        res, hist = respond(prompt, hist)
+        res = respond(prompt, hist)
         print(f"AI: {res}")
-        print(type(hist), hist)
     print("end of conversation.")

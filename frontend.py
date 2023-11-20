@@ -3,8 +3,7 @@ from typing import Iterable
 from gradio.themes.base import Base
 from gradio.themes.utils import colors, fonts, sizes
 
-GREEN = "#50C878"
-
+EMERALD = "#50C878"
 
 class Seafoam(Base):
     def __init__(
