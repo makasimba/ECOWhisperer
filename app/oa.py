@@ -9,7 +9,7 @@ from speech import speech_stream
 _ = load_dotenv(find_dotenv())
 
 client = OpenAI()
-CONTEXT = open("utils/guide.txt").read()
+CONTEXT = open("docs/guide.txt").read()
 
 
 DESCRIPTION = """ECO IV Ellie is your virtual assistant dedicated to guiding users through the intricate landscape of 
@@ -82,6 +82,9 @@ def respond(message: AnyStr, messages: List[Tuple]) -> List[Tuple]:
     # TODO: NEED TO INTEGRATE SPEECH AND TEXT GENERATION BY STREAMING BOTH SIMULTANEOUSLY
     speech_stream(script=completion)
     return response
+
+def foo(message, messages):
+    return "..."
 
 
 if __name__ == '__main__':

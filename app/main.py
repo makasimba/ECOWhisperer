@@ -1,12 +1,17 @@
 import gradio as gr
-from oa import respond
+from oa import respond, foo
 from frontend import Seafoam
 from frontend import EMERALD
 
 
 demo = gr.ChatInterface(
     fn=respond,
-    chatbot=gr.Chatbot(container=False, avatar_images=(None, None), layout="bubble"),  # TODO: FIX THE AVATARS PLEASE
+    chatbot=gr.Chatbot(
+        bubble_full_width=False,
+        container=False,
+        avatar_images=(None, "./avatars/a11.jpeg"),
+        layout="bubble"
+    ),
     retry_btn=None,
     stop_btn=None,
     undo_btn=None,
