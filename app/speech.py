@@ -13,26 +13,15 @@ you can make your home more energy-efficient and environmentally friendly.
 """
 
 
-def speak(script=s):
+def speech_stream(script):
     response = audio_client.audio.speech.create(
         model="tts-1",
-        voice="nova",
-        input=s,
-    )
-    response.stream_to_file("output.mp3")
-    playsound.playsound("output.mp3")
-
-
-def speech_stream(script=s):
-    response = audio_client.audio.speech.create(
-        model="tts-1",
-        voice="alloy",
+        voice="fable",
         input=script,
     )
     response.stream_to_file("output.mp3")
-    playsound.playsound("output.mp3")
+    playsound.playsound("audio/output.mp3")
 
 
 if __name__ == "__main__":
-    speak.stream_to_file("output.mp3")
-    playsound.playsound("output.mp3")
+    playsound.playsound("../output.mp3")

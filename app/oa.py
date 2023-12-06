@@ -1,51 +1,42 @@
-"""Uses language model API to respond to user prompts"""
+"""Uses A language model As An Autonomous ECO IV Representative"""
 
-from openai import OpenAI
-from dotenv import load_dotenv, find_dotenv
+import random
+import time
 from typing import List, Tuple, AnyStr
-import time, random
+import threading, multiprocessing
+from tools import get_date
+
+from dotenv import load_dotenv, find_dotenv
+from openai import OpenAI
+from augment import augment
+
 from speech import speech_stream
 
 _ = load_dotenv(find_dotenv())
 
 client = OpenAI()
-CONTEXT = open("docs/guide.txt").read()
+CONTEXT = open("/Users/makasimba/PycharmProjects/bot/docs/guide.txt").read()
 
+# TODO: DEFINITELY NEED TO ITERATE ON THIS PROMPT AN IMBUE MORE HELPFUL AGENT LIKE CHARACTER THROUGH CoT
+sys_message = f"""
+Your persona is Ellie, a courteous customer service agent for the ECO IV scheme. As an agent, 
+provide concise information about the program and guide users through the sign-up process.
 
-DESCRIPTION = """ECO IV Ellie is your virtual assistant dedicated to guiding users through the intricate landscape of 
-UK eco schemes. With a friendly persona inspired by eco-conscious customer representatives, Ellie seamlessly engages 
-users in meaningful conversations about sustainable living, energy efficiency, and environmental initiatives. 
-Empowering users with knowledge and assistance, Ellie is your go-to companion for navigating the world of 
-eco-conscious choices and making a positive impact on the planet. Join the conversation and let EllieChat be your 
-eco-guide today."""
+Be polite, informative, and avoid unnecessary details. Your goal is to assist citizens efficiently
+and ensure a smooth user experience.
 
-# TODO: DEFINITELY NEED TO ITERATE ON THIS PROMPT AN IMBUE MORE HELPFUL AGENT LIKE CHARACTER
-sys_message = f"""Your persona is Ellie, a courteous customer service agent for the ECO IV scheme. As an agent, 
-provide concise information about the program and guide users through the sign-up process. Be polite, 
-informative, and avoid unnecessary details. Your goal is to assist citizens efficiently and ensure a smooth user 
-experience. Mimic the tone of a helpful customer service representative, always aiming for thoughtful and 
+Mimic the tone of a helpful customer service representative, always aiming for thoughtful and 
 succinct responses.
 
-The following information, delimited by triple backticks provides details about the ECO4 scheme - feel free to use 
-this information: ```{CONTEXT}```
+Use three sentences at most in your response and keep your answers as concise as possible.
 """
 
 
-def gr_format(messages):
-    """Assumes messages is in the form of openai api. Converts to gr format"""
-    messages = messages[1:]
-
-    mine = [msg["content"] for i, msg in enumerate(messages, 1) if i % 2 == 1]
-    bot = [msg["content"] for i, msg in enumerate(messages, 1) if i % 2 == 0]
-
-    return [v for v in zip(mine, bot)]
-
-
-def oa_format(messages):
+def oa_format(messages, system_message):
     """
-    Assumes messages is in gr format
+    Assumes messages is in Gradio format. Converts messages to OAI format.
     """
-    m = [{"role": "system", "content": sys_message}]
+    m = [{"role": "system", "content": system_message}]
     for v in messages:
         mine, bot = v
         m.append({"role": "user", "content": mine})
@@ -53,44 +44,53 @@ def oa_format(messages):
     return m
 
 
-def respond(message: AnyStr, messages: List[Tuple]) -> List[Tuple]:
-    """Assumes messages are in gr format."""
-    messages = oa_format(messages)
+tools = [
+]
 
-    query = f"""
-    QUESTION: {message}
-    """
+
+def respond(message: AnyStr, messages: List[Tuple]) -> List[Tuple]:
+    """Respond To User Queries."""
+    # TODO: ADD AUGMENTATION HERE
+
+    messages = oa_format(messages, sys_message)
+    context = CONTEXT
+    query = f"""Use the following piece of information to respond the user message at the end:\nToday is {get_date()}\n\n{context}\n\n{message}"""
+
     messages.append({"role": "user", "content": query})
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
-        temperature=0.25,
+        temperature=0.7,
         seed=42,
         stream=True,
     )
+
     completion = ""
-    type(response)
     for chunk in response:
-        time.sleep(random.uniform(0.01, 0.07))
         try:
             completion += chunk.choices[0].delta.content
             yield completion
         except TypeError:
             break
+        finally:
+            # TODO: DYNAMIC REAL-TIME TEXT-TO-SPEECH STREAMING
+            ...
 
-    # TODO: NEED TO INTEGRATE SPEECH AND TEXT GENERATION BY STREAMING BOTH SIMULTANEOUSLY
-    speech_stream(script=completion)
     return response
 
+
 def foo(message, messages):
+    """For debugging purposes only."""
     return "..."
 
 
 if __name__ == '__main__':
+    # FOR DEBUGGING PURPOSES ONLY
     hist = []
     for _ in range(5):
         prompt = input("Prompt >> ")
         res = respond(prompt, hist)
+
         print(f"AI: {res}")
-    print("end of conversation.")
+    print("<EOF>")

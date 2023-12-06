@@ -1,5 +1,11 @@
 # TODO: IMPLEMENT RETRIEVAL AUGMENTED GENERATION USING DATABASES AND VECTORES
 # TODO: REFINE BASIC RAG
+
+"""
+This module enables the model to access external knowledge sources which enable factual consistency,
+improved reliability of the generated responses, and helps to mitigate the problem of "hallucination".
+"""
+
 import pandas as pd
 import numpy as np
 import tqdm
@@ -52,7 +58,7 @@ def create_df(filepath):
     return df
 
 
-def augment(q, e, norms, k=3):
+def f(q, e, norms, k=3):
     """
     Assumes q is a 1d numpy array and e is a 2d numpy array.
     Calculates the distance between vector q and each of the vectors in e.
@@ -65,7 +71,7 @@ def augment(q, e, norms, k=3):
     return np.argpartition(d, -k)[-k:]
 
 
-def basic_rag(qry, db):
+def augment(qry, db):
     q = client.embeddings.create(
         model=MODEL,
         input=qry,
@@ -74,7 +80,7 @@ def basic_rag(qry, db):
     e = db["embeddings"]
     e = np.array(e)
     e = e.T
-    relevant_docs = augment(q, e, db["norm"], 3)
+    relevant_docs = f(q, e, db["norm"], 3)
 
     setting = ""
     for i in range(relevant_docs):
@@ -83,7 +89,7 @@ def basic_rag(qry, db):
 
 
 if __name__ == '__main__':
-    df = create_df("docs/guide.txt")
+    df = create_df("../docs/guide.txt")
     query = """The ECO 4 scheme"""
     context = basic_rag(query, df)
 
