@@ -9,14 +9,15 @@ cursor = conn.cursor()
 
 table = """
     CREATE TABLE IF NOT EXISTS users (
-        app_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
         first_name VARCHAR(50) NOT NULL,
         last_name VARCHAR(50) NOT NULL,
         address VARCHAR(50) NOT NULL,
         phone_number VARCHAR(50) NOT NULL,
         benefits VARCHAR(120) NOT NULL,
         appstage VARCHAR(100) DEFAULT 'form submitted and under review',
-        synopsis VARCHAR(1000) DEFAULT ''
+        synopsis VARCHAR(1000) DEFAULT '',
+        app_id UUID NOT NULL
     );"""
 
 cursor.execute(table)
