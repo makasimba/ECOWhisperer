@@ -1,4 +1,4 @@
-from exceptions import MisuseException
+from app.exceptions import MisuseException
 
 tools = []
 

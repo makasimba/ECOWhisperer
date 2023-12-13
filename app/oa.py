@@ -1,12 +1,12 @@
 """Uses A language model As An Autonomous ECO IV Agent"""
 from typing import List, Tuple, AnyStr
-from tools import get_date
-from exceptions import MisuseException
-from utils import oa_format
+from app.tools import get_date
+from app.exceptions import MisuseException
+from app.utils import oa_format
 
 from dotenv import load_dotenv, find_dotenv
 from openai import OpenAI
-from augment import augment
+from app.augment import augment
 
 _ = load_dotenv(find_dotenv())
 
@@ -17,8 +17,6 @@ DELIMITER = "####"
 
 # TODO: DEFINITELY NEED TO ITERATE ON THIS PROMPT AN IMBUE MORE HELPFUL AGENT LIKE CHARACTER THROUGH CoT
 sys_message = f"""
-Today is {get_date()}
-
 Your persona is Ellie, a courteous customer service agent for the ECO4 scheme. As an agent, you provide concise
 information about the scheme in no more than 3 short sentences, and guide users through the sign-up process.
 

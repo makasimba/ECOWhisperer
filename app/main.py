@@ -1,7 +1,7 @@
 import gradio as gr
-from oa import respond
-from frontend import Seafoam
-from frontend import EMERALD
+from app.oa import respond
+from app.frontend import Seafoam
+from app.frontend import EMERALD
 
 demo = gr.ChatInterface(
     fn=respond,
@@ -31,5 +31,10 @@ demo = gr.ChatInterface(
     description="",
 )
 
-if __name__ == "__main__":
+
+def main():
     demo.queue().launch()
+
+
+if __name__ == "__main__":
+    main()
