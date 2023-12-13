@@ -1,0 +1,37 @@
+USER: hi ellie
+
+ELLIE: Hi there! How can I assist you today regarding the ECO IV scheme?
+
+USER: I need help signing up to the scheme, but before we get into that,
+      could you please tell me a lot more about the scheme
+
+ELLIE: The ECO IV scheme is a government energy efficiency program in
+       Great Britain aimed at reducing fuel poverty and carbon emissions.
+       It requires energy suppliers to participate and provide energy
+       improvements for low-income, fuel-poor, and vulnerable households.
+       The scheme focuses on a whole-house retrofit approach, meaning
+       multiple areas of improvement must be delivered rather than just one.
+       Eligibility is based on certain benefits, and an initial remote
+       assessment of your property will be conducted to determine eligibility
+       and any potential upfront customer contribution. If you're interested
+       in applying, we'll need some details about your property and the
+       benefits you're receiving.
+
+USER: What information do you need about my property ?
+
+ELLIE: To proceed with your ECO application, we will need some information about
+       your property. This includes details such as the type of property you own
+       or rent, the size of the property, and its energy efficiency. Additionally,
+       we will require information about the benefits you are currently receiving.
+       If you're ready to provide these details, we can begin the application process.
+
+USER: I am ready. Let's begin.
+
+ELLIE: Great! Let's get started with your ECO IV application. To begin, we'll need
+       some information about your property. This includes details such as the type
+       and size of your property, as well as its current energy efficiency. We'll
+       also require information about the benefits you are currently receiving.
+       Please keep in mind that costs will not be known until your property has been
+       fully assessed, and any additional costs will be included in the installer's
+       quote. Work will not commence without your full consent. Once we have all the
+       necessary details, we'll proceed with the application.

@@ -1,9 +1,14 @@
 The ECO4 scheme
     The Energy Company Obligation (ECO) is a government energy efficiency
     scheme in Great Britain designed to tackle fuel poverty and help
-    reduce carbon emissions. Energy Suppliers are obligated to take part
-    in the scheme to improve the ability of low-income, fuel-poor and
-    vulnerable households to heat their homes.
+    reduce carbon emissions. Energy Suppliers are obligated to improve the
+    ability of low-income, fuel-poor and vulnerable households to heat their
+    homes.
+
+    The Great British Insulation Scheme, part of ECO, offers two application groups—general
+    and low-income—each with distinct eligibility criteria. The general group considers
+    council tax bands and EPC ratings, while the low-income group requires benefit recipients
+    in less efficient housing.
 
     The scheme has seen 4 iterations, ECO, ECO1, ECO2 and ECO3, a brief
     overview can be found at the bottom of this page. The ECO3 scheme
@@ -11,21 +16,26 @@ The ECO4 scheme
     2022. ECO4 applies to measures installed from 1 April 2022 and will
     cover a four-year period until 31 March 2026.
 
+    The Energy Company Obligation (ECO) is a UK government initiative addressing
+    fuel poverty and carbon emissions. Mandating participation from energy
+    suppliers, the scheme's fourth iteration, ECO4, runs from April 2022 to March
+    2026. Emphasizing holistic upgrades, ECO4 requires fabric insulation before
+    considering other measures, deviating from a singular focus on boiler replacements.
+
     Eligible customers will be able to access a range of energy improvements
     that will help them improve their home energy efficiency. ECO 4 also
-    requires a more complete upgrade of homes, shifting to a multi-measure
-    whole-house retrofit approach. For example, a customer cannot just expect
-    to receive loft insulation or a new boiler under ECO 4 all areas of
-    improvement must be delivered.
+    allows a more complete upgrade of homes, shifting to a multi-measure
+    whole-house retrofit approach. For example, a customer should expect
+    to receive loft insulation, a new boiler and all other areas of improvement.
 
-    ECO 4 is not a general boiler replacement only / emergency replacement
+    ECO 4 is not just a general boiler replacement only / emergency replacement
     boiler scheme. The most important measure which must be considered first
     will be fabric insulation (loft insulation / cavity wall / underfloor heating).
     Customers will need to take a package of energy efficiency improvements
     rather than just one. Eligible customers will have a survey carried out on
     their homes to make sure their property is suitable for these improvements.
 
-How does ECO work?
+How does ECO4 work?
     The ECO scheme works by placing a Home Heating Cost Reduction Obligation
     (HHCRO) on medium and large energy suppliers. Under HHCRO, obligated
     suppliers must promote measures that improve the ability of low-income,
@@ -34,6 +44,19 @@ How does ECO work?
     or upgrading a heating system. The overall target for these measures is
     divided between suppliers based on their relative share of the domestic
     gas and electricity market.
+
+How is ECO4 funded?
+    The Government requires major energy suppliers to fund the Energy Company
+    Obligation (ECO) scheme. This means that all the large energy suppliers are
+    required to enhance energy efficiency across the United Kingdom in order to
+    reduce the country’s carbon emissions.
+
+
+    ECO4 is the latest version of the ECO scheme, targeting lower-income households,
+    it is part of the Government’s strategy to enhance energy efficiency in households
+    that are vulnerable to fuel poverty, where reduced heating costs make the biggest
+    difference to the quality of life.
+
 
 Who is the scheme for?
     The ECO scheme supports energy efficiency measures in the home of those
@@ -45,8 +68,31 @@ Who is the scheme for?
     For example, a customer cannot just expect to receive loft insulation or a
     new boiler under ECO 4 all areas of improvement must be delivered
 
+The importance of good insulation.
+    Consumer protection magazine Which? found that installing loft insulation can
+    reduce your energy bills by up to £215 per year. All heat rises, and in most
+    houses more than 25% of the heat inside the home escapes through the roof, which
+    makes loft insulation and room in roof insulation vital to improving your home’s
+    energy efficiency.
+
+    Part of our survey involves the inspection of existing loft insulation, in many
+    cases (particularly if the thickness is less than 100mm) this loft insulation can be
+    increased in order to improve the energy efficiency. Loft insulation is effective
+    for an extremely long period of time, with some loft insulation remaining effective
+    for at least 40 years.
+
+Measures funded by the scheme.
+    ECO4 funding is available for several measures including Cavity Wall Insulation,
+    Gas Boiler Replacement/Upgrade, First Time Gas Connection, Heating Controls upgrade,
+    Loft/Room-in-Roof Insulation, Solid Wall Insulation, External Insulation among others.
+
+
+
 There is a very strict set of eligibility criteria for the scheme and customers
-need to be in receipt of certain benefits to be eligible.
+need to be in receipt of certain benefits to be eligible. To qualify for measures under the ECO
+scheme you OR someone in your household or the person you are applying on behalf of must be in
+receipt of one of the following:
+
 
     Customers that are in receipt of the following benefits qualify
     (as long as their home is applicable for improvements)
@@ -60,15 +106,25 @@ need to be in receipt of certain benefits to be eligible.
     VII. Universal Credit
     VIII. Housing Benefit
     IX. Child benefit where the occupants meet the below income thresholds*
-    X.You can find more information on criteria on Ofgem's ECO page here.
 
-    Upon receipt of your application our installers will carry out an initial
-    remote assessment of your property to determine eligibility.
-    The installer will contact you directly to confirm the next steps.
+    Upon receipt of your application we do the following:
 
-    No work will be carried out until a full assessment and quote has been
-    prepared. Please note that the ECO retrofit may require an upfront customer
-    contribution but this will not be known until after the initial survey.
+    STEP 1:
+        We check your eligibility and a remote assessment of your property.
+    STEP 2:
+        We arrange a minimally intrusive, 10-15 minute survey, with one of
+        our installers, to carry out an initial inspection your home.
+    STEP 3:
+        Once we have identified the appropriate measures to implement, we arrange
+        and coordinate for the installation works to be carried out with your approval
+        and little to no inconvenience on your part. On average installation works are
+        completed within 3 days.
+
+    No work will be carried out or commence without the customers' full consent and
+    until a full assessment and quote has been prepared. Please note, no charges will be
+    made to the customer until after a survey is completed and a quote generated. Please
+    note that the ECO retrofit may require an upfront customer contribution but this will
+    not be known until after the initial survey.
 
     If the property is privately rented and the tenants are on benefits, the
     ECO 4 application cannot proceed without written permission from the
@@ -79,12 +135,27 @@ need to be in receipt of certain benefits to be eligible.
     You may be eligible if you own or privately rent your home, or live in
     social housing. When you apply, we'll ask for some details about your
     property and the benefits you're getting. If you believe you may be eligible
-    and wish to apply for the ECO scheme you can apply here.
+    and wish to apply for the ECO scheme you can apply *here*.
 
-We will acknowledge receipt of your application form within 5 days of receipt. Please note there is no guarantee that an application will progress to install stage. If
-eligibility is not successful at each stage the ECO application will be rejected.
+    Applicants undergo an initial remote assessment, followed by a comprehensive evaluation
+    and quote. While an upfront customer contribution may be necessary, the amount is
+    determined post-survey. Privately rented properties with benefit-receiving tenants
+    require written landlord permission.
 
-You will be contacted by the installer within 4 weeks of your application being received.
+    Please note:
+     i. Costs will not be known until the property has been fully assessed and any additional costs (if applicable)
+       will be included in the installers quote. Work will not commence without the customers full consent.
 
+     ii. Please note, submitting your application does not guarantee you will be able to claim measures under the ECO scheme.
 
+     iii. The ECO scheme funding may not cover the full cost of any improvements.
 
+     iv. Quotes can be dependent on property type, size, efficiency and any additional work required.
+
+     v. Installers will need to contact the DWP to undergo DWP checks to confirm your eligibility.
+
+We will acknowledge receipt of your application form within 5 days of receipt.
+Please note there is no guarantee that an application will progress to install stage.
+If eligibility is not successful at each stage your ECO application will be rejected.
+
+You will be contacted by an assigned installer within 4 weeks of your application being received.

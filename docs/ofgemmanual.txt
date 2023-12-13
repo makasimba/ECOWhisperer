@@ -125,6 +125,8 @@ of funding they provide and the Retrofit Coordinator and installers they choose 
 encourage that you speak to your energy supplier, should you have any queries about your eligibility
 and the retrofit process for the delivery of measures under ECO4.
 
+FAQs
+
 Can I get help outside of ECO?
 There are several government schemes available to help you with your energy bills such as the Warm
 Home Discount. To find out about the schemes available you could use the government's energy grants
@@ -188,7 +190,7 @@ Utility Warehouse
 Utilita
 
 Installers offering measures under ECO - I’ve received a letter from an ECO installer, are they genuine?
-Installers are not approved by Ofgem under the ECO scheme. The role of Ofgem is to administer ECO and it
+Installers are not approved by Ofgem under the ECO scheme. The role of Ofgem is to administer ECO, and it
 is for the obligated energy companies to arrange the delivery of the energy efficiency measures. You can
 read more about our role on the About the ECO scheme webpage.
 
@@ -296,7 +298,6 @@ information on HTHG eligibility.
 
 The package of measures that PRS properties receive must include at least one of the following measures, in
 addition to further ECO measures necessary to meet the MR:
-
 Solid wall insulation (SWI),
 First time central heating (FTCH),
 District heating system connection,
@@ -550,3 +551,4 @@ My question is not answered in the FAQs. Where else can I look?
 The ECO4 Guidance: Delivery is a comprehensive document for anyone looking for in-depth information regarding ECO.
 
 If you still have questions, please contact us at eco@ofgem.gov.uk
+

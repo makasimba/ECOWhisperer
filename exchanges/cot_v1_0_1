@@ -1,0 +1,64 @@
+User: Thank you, that information was very helpful. I would like to proceed now please.
+
+ELLIE:
+    Great! I'm glad the information was helpful. To proceed with your ECO4 application, I will need some information about your property and your personal details. Here are the steps we'll go through:
+    STEP 1: Gather information about your property:
+    What is your home's EPC rating? (C, D, E, F, G, Unknown)
+    Is there gas connected to the property?
+    Was the gas meter installed before 31st March 2022?
+    What is your main heating system? (Gas central heating, LPG central heating, Oil central heating, Renewable heating, Infrared central heating, Electric heating)
+    What is your secondary heating system? (Electric panel or oil room heater, Solid fuel fires, Storage heaters, None)
+    What is your boiler type? (Combi Boiler, Condenser Boiler, 1960 to 1980 Back Boiler)
+    What is the make and model of your boiler?
+    Do you have a separate hot water cylinder?
+    Do you have a loft or a room in the roof?
+    Is your loft insulated?
+    What is your property type? (Detached, Semi-Detached, Mid-Terrace, Maisonette, Flat, Bungalow)
+    What is your wall type? (Solid brick wall, Cavity wall, Stone wall, Timber Frame, Unsure)
+    Do you have any wall insulation? (Filled Cavity, External wall insulation, Internal wall insulation, Unsure)
+    What is your current heating system? (Electric underfloor heating, Electric storage heaters, Gas central heating from boiler, Gas fire / back boiler, Solid fossil fuel fire / open fire, Bottled LPG Heating, Wood/biomass heating, Oil heaters, No heating in place)
+    Select an option of heating available. (High Heat Electric Storage Heaters, First Time Central Heating, Solar PV, Air Source Heat Pumps)
+    Which benefits are you receiving? (Child Tax Credits, Jobseekers Allowance, Income Support, Universal Credit, Working Tax Credit, Pension Credit Saving Credit, Child Benefits, Employment & Support Allowance, Pension Credit Guarantee Credit, Warm Home Discount Scheme Rebate, Housing Benefit)
+    How many bedrooms does your property have? (1, 2, 3, 4, 5, 6, 7)
+    STEP 2: Gather information about you:
+    Your first name.
+    Your family name.
+    Your preferred contact number.
+    Your preferred email address.
+    Your physical home address.
+    STEP 3: Confirm your tenure:
+    Are you a homeowner, private tenant, social
+
+ELLIE:
+    I can guide you through the sign-up process step by step. To begin, I'll need some information about your property. Please answer the following questions:
+    What is your home's EPC rating? (C, D, E, F, G, Unknown)
+    Under the ECO4 scheme, we are specifically aiming to help those in low EPC band properties to have insulation measures installed. Unfortunately, at this point in time, we are only accepting properties that are EPC E, F, and G Rated.
+    Is there gas connected to your property?
+    Was the gas meter installed before 31st March 2022?
+    What is your main heating system? (Gas central heating, LPG central heating, Oil central heating, Renewable heating, Infrared central heating, Electric heating)
+    What is your secondary heating system? (Electric panel or oil room heater, Solid fuel fires, Storage heaters, None)
+    What is your boiler type? (Combi Boiler, Condenser Boiler, 1960 to 1980 Back Boiler)
+    A condenser boiler will have a white or black plastic pipe under the boiler going outside. A back boiler is a type of boiler that’s installed behind a home’s fireplace hearth and gets its heat from a gas fire, open fire, or an electric heating element.
+    What is the make and model of your boiler?
+    Does your home have a separate hot water cylinder?
+    Does your property have a loft or a room in the roof?
+    Is your loft insulated?
+    What is your property type? (Detached, Semi-Detached, Mid-Terrace, Maisonette, Flat, Bungalow)
+    What is your wall type? (Solid brick wall, Cavity wall, Stone wall, Timber Frame, Unsure)
+    Does your property have any wall insulation? (Filled Cavity, External wall insulation, Internal wall insulation, Unsure)
+    What is your current heating system? (Electric underfloor heating, Electric storage heaters, Gas central heating from boiler, Gas fire / back boiler, Solid fossil fuel fire / open fire, Bottled LPG Heating, Wood/biomass heating, Oil heaters, No heating in place)
+    Select an option of heating available. (High Heat Electric Storage Heaters, First Time Central Heating, Solar PV, Air Source Heat Pumps)
+    Which of the following benefits are you receiving? (Please select all that apply)
+    Child Tax Credits (CTC)
+    Jobseekers Allowance (JSA)
+    Income Support (IS)
+    Universal Credit (UC)
+    Working Tax Credit (WTC)
+    Pension Credit Saving Credit
+    Child Benefits - depends on income threshold*
+    Employment & Support Allowance (ESA)
+    Pension Credit Guarantee Credit
+    Warm Home Discount Scheme Rebate
+    Housing Benefit
+    How many bedrooms does your property have? (1, 2, 3, 4, 5, 6, 7)
+    Once we have gathered this information, we will proceed to the next steps.

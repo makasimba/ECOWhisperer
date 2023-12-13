@@ -1,25 +1,29 @@
-
+from exceptions import MisuseException
 
 tools = []
 
+
 def oa_format(messages, system_message):
     """
-    Assumes messages is in Gradio format. Converts messages to OAI format.
+    Assumes messages is in Gradio format - list of tuples.
+    Converts messages to OAI format - list of dictionaries.
     """
-    m = [{"role": "system", "content": system_message}]
+    m = [
+        {"role": "system", "content": system_message},
+        {"role": "assistant", "content": "Hello! I'm Ellie, your friendly neighbourhood ECO4 guide."},
+    ]
+
     for v in messages:
         mine, bot = v
-        m.append({"role": "user", "content": mine})
-        m.append({"role": "assistant", "content": bot})
+        if mine is None:
+            m.append({"role": "user", "content": ""})
+            m.append({"role": "assistant", "content": bot})
+        else:
+            m.append({"role": "user", "content": mine})
+            m.append({"role": "assistant", "content": bot})
     return m
 
 
-def evaluate(user_query):
-    """Assesses the user input for misuse."""
-    user_query = user_query.replace(DELIMITER, "")
-    response = client.moderations.create(
-        input=user_query,
-    )
-    if response.results[0]['flagged']:
-        raise MisuseException
-
+def foo(message, messages):
+    """For debugging purposes only."""
+    return "..."

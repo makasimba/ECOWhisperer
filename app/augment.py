@@ -1,4 +1,4 @@
-# TODO: IMPLEMENT RETRIEVAL AUGMENTED GENERATION USING DATABASES AND VECTORES
+# TODO: IMPLEMENT RETRIEVAL AUGMENTED GENERATION USING DATABASES
 # TODO: REFINE BASIC RAG
 
 """
@@ -26,10 +26,10 @@ def chunk(filepath, sep="\n\n"):
     return contents
 
 
-def embed(v: str):
+def embed(v):
     """
-    :param v: The content to be encoded.
-    :return: The content's numerical representation as a 1d array.
+    v -- The content to be encoded.
+    return -- The content's numerical representation as a 1d array.
     """
     embedding = client.embeddings.create(
         model=MODEL,
@@ -84,14 +84,14 @@ def augment(qry, db):
 
     setting = ""
     for i in range(relevant_docs):
-        setting += db["text"].loc[i]
+        setting += db["text"].loc[i] + "\n\n"
     return setting
 
 
 if __name__ == '__main__':
     df = create_df("../docs/guide.txt")
     query = """The ECO 4 scheme"""
-    context = basic_rag(query, df)
+    context = f(query, df)
 
     print(f"""
     \n\n{context}\n\n
